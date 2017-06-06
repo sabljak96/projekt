@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{width:100%;}
+.clear{clear:both}
+
+/*-------------header----------------*/
+header{
+	width:100%;
+	background-color: #4286f4;
+	padding:15px;
+	color:white;
+	height:60px;
+}
+header h1{
+	line-height:60px;
+	float:left;
+}
+header img{
+	float:right;
+}
+header form{
+	margin-right:100px;
+}
+header form select{
+	width:100px;
+	float:right;
+	margin-right:15px;
+	margin-left:15px;
+}
+main{
+	width:90%;
+	margin:0 auto;
+}
+
+/*-------------prijava----------------*/
+/*-------------article----------------*/
+.prijava_article{
+	position:relative;
+	top:100px;
+	width:600px;
+	/*border-left: 2px solid #4286f4;
+	border-right: 2px solid #4286f4;*/
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.prijava_article h3{
+	width:85%;
+	margin:0 auto;
+	padding: 10px;
+	border-bottom: 2px solid #4286f4;
+	
+}
+.prijava_article form{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width:85%;
+	margin: 0 auto;
+	margin-bottom:200px;
+}
+.prijava_article form p, .prijava_article input, .prijava_article select{
+	width:49%;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	float:left;
+	border-radius:10px;
+}
+
+/*---------------nova anketa--------*/
+.napravi_novu, .nedavne_ankete{
+	width:80%;
+	margin:0 auto;
+	padding-top:25px;
+	padding-bottom:25px;
+}
+.napravi_novu h2, .nedavne_ankete h2{
+	width:85%;
+	margin:0 auto;
+	margin:15px;
+	padding:30px;
+	border-bottom:2px solid #4286f4;
+}
+.napravi_novu div, .nedavne_ankete div{
+	margin-top:15px;
+	width:25%;
+	float:left;
+}
+.napravi_novu img, .nedavne_ankete img{
+	margin:0 auto;
+	height:126px;
+	width:169px;
+}
+.napravi_novu button{
+	padding:15px 30px;
+	border-radius:10px;
+	float:right;
+	margin-right:20%;
+	margin-top:30px;
+}
+
+/*----------izrada--ankete-----------*/
+	
+.izrada_ankete {
+	width:80%;
+	margin:0 auto;
+	padding-top:25px;
+}
+
+.naziv_ankete {
+	padding:20px 20px 20px 20px;
+}
+
+.naziv_ankete input {
+	border-radius:10px;
+	width:70%;
+	padding:10px 0 10px 0;
+}
+
+.izrada_pitanja {
+	width:60%;
+	height:1000px;
+	margin:50px auto;
+	padding:50px 10px 0 10px;
+	border:2px solid #4286f4;
+	border-radius:15px;
+}
+
+.dodaj_pitanje {
+	height:250px;
+	width:90%;
+	margin:0 auto;
+	
+}
+
+.brPitanja {
+	width:90%;
+	float:left;
+	border-radius:10px;
+	padding:5px 0 5px 0;
+}
+
+.izborOdgovor {
+	float:left;
+	width: 50%;
+	margin: 30px 0 10px 1px;
+}
+
+.dodaj_pitanje p {
+	float:left;
+	margin: 26px 0 0 -125px;
+}
+
+.esejski {
+	width:80%;
+	margin: 30px 0 0 35px;
+	height: 150px;
+	border-radius: 10px;
+}
+	
+/*.ikonica {
+	float:right;
+}*/
+
+.blank{
+	width:50px;
+	margin: 100px 143px 0 0;
+	float:right;
+}
+.trash {
+	width:50px;
+	margin:155px -50px 0 0;
+	float:right;
+}
+.pen {
+	width:50px;
+	float:right;
+	margin: 219px -50px 0 0px;
+}
+	
+	
+.timer{
+	float: right;
+	display:block;
+	width:170px;
+}
+	
+	
+	
+	
+	
+	
+	
+	

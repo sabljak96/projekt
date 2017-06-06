@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Izrada ankete</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<meta charset="utf-8" />
+		
+	</head>
+	<body>
+		<header>
+			<h1>Project X</h1>
+			<form>
+				<select>
+					<option selected>Username</option>
+					<option>Postavke</option>
+					<option>Odjavi se</option>
+				</select>
+			</form>
+			<img src="avatar_icon.jpg" width="50px" alt="icon"/>
+			
+		</header>
+		<main>
+			<article class="izrada_ankete">
+				<form class="naziv_ankete">
+					<input type="text" placeholder="Unesite naziv ankete"/>
+				</form>
+				<div class="ikonica"><img src="blank.png" alt="blank" class="blank"></div>
+				<div class="ikonica"><img src="trash.png" alt="trash" class="trash"></div>
+				<div class="ikonica"><img src="pen.png" alt="pen" class="pen"></div>
+				<form class="izrada_pitanja">
+					<div class="dodaj_pitanje">
+						<input type="text" placeholder="Pitanje 1" class="brPitanja"/>
+						<input type="checkbox" name="izbor" id="izbor" class="izborOdgovor"/><p>Odgovor 1</p>
+						<input type="checkbox" name="izbor" id="izbor" class="izborOdgovor"/><p>Odgovor 2</p>
+						<input type="checkbox" name="izbor" id="izbor" class="izborOdgovor"/><p>Odgovor 3</p>
+					</div>
+					<div class="dodaj_pitanje">
+						<input type="text" placeholder="Pitanje 2" class="brPitanja"/>
+						<input type="radio" name="izbor2" id="izbor2" class="izborOdgovor"/><p>Odgovor 1</p>
+						<input type="radio" name="izbor2" id="izbor2" class="izborOdgovor"/><p>Odgovor 2</p>
+						<input type="radio" name="izbor2" id="izbor2" class="izborOdgovor"/><p>Odgovor 3</p>
+					</div>
+					<div class="dodaj_pitanje">
+						<input type="text" placeholder="Pitanje 3" class="brPitanja"/>
+						<input type="textarea" name="izbor3" id="izbor3" class="esejski" placeholder="Unesite odgovor"/>
+					</div>
+					
+					<input class="prijavi" type="reset" value="Odustani"></input>
+					<input class="prijavi" type="submit" value="Završi"></input>
+				</form>
+				
+				<div class="clear"/>
+			</article>
+		</main>
+		
+	</body>
+</html>
