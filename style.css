@@ -3,7 +3,9 @@
 	padding:0;
 }
 body{width:100%;}
-.clear{clear:both}
+.clear{clear:both;}
+a{text-decoration:none;}
+ul{list-style-type:none;}
 
 /*-------------header----------------*/
 header{
@@ -28,6 +30,10 @@ header form select{
 	float:right;
 	margin-right:15px;
 	margin-left:15px;
+}
+.rezultati {
+	border-top:2px solid white;
+	line-height:60px;
 }
 main{
 	width:90%;
@@ -122,7 +128,7 @@ main{
 
 .izrada_pitanja {
 	width:60%;
-	height:1000px;
+	height:800px;
 	margin:50px auto;
 	padding:50px 10px 0 10px;
 	border:2px solid #4286f4;
@@ -160,10 +166,6 @@ main{
 	height: 150px;
 	border-radius: 10px;
 }
-	
-/*.ikonica {
-	float:right;
-}*/
 
 .blank{
 	width:50px;
@@ -187,11 +189,132 @@ main{
 	display:block;
 	width:170px;
 }
+.prijavi{
+	width:15%;
+	padding-top:10px;
+	padding-bottom:10px;
+	float:right;
+	border-radius:10px;
+}
 	
+/*----------analiza--ankete-----------*/
+/*
+.navigacija {
+	float:left;
+	width:30%;
+	border-right:1px solid black;
+}
+
+.navigacija nav {
+	margin:50px 0 0 50px;
+}
+
+.navigacija h2 {
+	margin:40px 0 0 40px;
+}
+
+ul li {
+	float:left;
+	width:90%;
+	height:40px;
+	border-bottom:1px solid black;
+	padding-top:10px;
+	text-decoration:none;
+	display:block;
+}
+li a{
+	width:100%;
+	text-decoration:none;
+	color:black;
 	
+}
+.navigacija ul a:hover{
+	text-decoration:none;
+	background-color:gray;
+}
+
+.pitanja{
+	float:right;
+	width:70%;
+}
+*/
+aside {
+	width:25%;
+	float:left;
+	border-right:2px solid white;
+	border-top:2px solid white;
+	border-bottom:2px solid white;
+	box-sizing:border-box;
+}
+aside h2{
+	color:white;
+	margin:0;
+	padding:0;
+}
+.naziv_ankete{
+	height:60px;
+	line-height:60px;
+	background-color:#4286f4;
+}
+.rezultati ul{
+	margin:0 auto;
+	width:100%;
+}
+.rezultati ul li{
+	border-bottom:2px solid #4286f4;
+	box-sizing:border-box;
 	
-	
-	
-	
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+}
+.rezultati ul li:hover, .rezultati ul a:hover{
+	background-color: #4286f4;
+	color:white;
+}
+.rezultati ul a{
+	color: #4286f4;
+}
+.analiza_main{
+	width:100%;
+	margin-left:2px;
+}	
+.ikona {
+	float:right;
+	color:white;
+	border:0px;
+}
+.pitanja{
+	margin-top: 100px;
+	width:75%;
+	float:left;
+	border-right:2px solid white;
+	border-top:2px solid white;
+	box-sizing:border-box;
+}
+.analiza_pitanja{
+	width:60%;
+	margin:0 auto;
+	height:100px;
+	line-height:100px;
+	color:#4286f4;
+}
+.analiza_odgovor{
+	width:40%;
+	margin:0 auto;
+	color:#4286f4;
+}
+.analiza_odgovor p, progress{
+	width:40%;
+	float:left;
+	margin: 15px;
+}
+progress{
+	border-radius:0px;
+}
+.aktivan_link{
+	background-color:#4286f4;
+	color:white;
+}
 	
 	
